@@ -135,8 +135,8 @@ export class QuadTree {
 			{
 				left: this.rect.x + this.globalRec.x,
 				top: this.rect.y + this.globalRec.y,
-				width: this.globalRec.width,
-				height: this.globalRec.height,
+				width: this.rect.width,
+				height: this.rect.height,
 			}
 		);
 	}
